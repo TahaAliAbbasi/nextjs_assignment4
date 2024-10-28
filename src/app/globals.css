@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,9 +17,321 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Heebo", sans-serif,Arial, Helvetica;
 }
 
+#home{
+  position: absolute;
+  width: 1440px;
+  height: 2453px;
+  background-color: rgba(207, 166, 166, 0.11);
+}
+#con{
+  position: absolute;
+  top: 66px;
+  left: 1294px;
+}
+#blg{
+  position: absolute;
+  top: 66px;
+  left: 1201px;
+}
+#wor{
+  position: absolute;
+  top: 66px;
+  left: 1088px;
+}
+#image{
+  position: absolute;
+  top: 257px;
+  left: 963px;
+}
+#h-text{
+  width:521px;
+  height: 305px;
+}
+#h-text-h{
+  width:540px;
+  height: 124px;
+  position: absolute;
+  top: 249px;
+  left: 231px;
+  font-size: 48px;
+  letter-spacing: 2px;
+  line-height: 61px;
+  color: rgba(33, 36, 61, 1);
+  font-weight: bold;
+}
+#h-text-t{
+  position: absolute;
+  top: 403px;
+  left: 231px;
+  width: 497px;
+  height: 66px;
+  letter-spacing: 0px;
+  color: rgba(33, 36, 61, 1);
+  font-size: 16px;
+
+}
+#h-text-b{
+  position: absolute;
+  top: 504px;
+  left: 231px;
+  width: 205px;
+  height: 50px;
+  background-color: rgba(249, 133, 133, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  letter-spacing: 0px;
+}
+#recentpost{
+  position: absolute;
+  top: 665px;
+  left: 0px;
+  width: 1440px;
+  height: 502px;
+  background-color: rgba(244, 226, 226, 1);
+}
+#rps{
+  position: absolute;
+  width: 483px;
+  height: 356px;
+  background-color: rgba(255, 255, 255, 1);
+}
+#rpsa{
+  position: absolute;
+  top: 78px;
+  left: 238px;
+}
+#rpsb{
+  position: absolute;
+  top: 78px;
+  left: 763px;
+}
+#rpsh{
+  position: absolute;
+  top: 38px;
+  left: 35px;
+  width: 383.56px;
+  height: 107.53px;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 38px;
+  letter-spacing: 2%;
+  color: rgba(0, 0, 0, 1);
+}
+#rpsp{
+  position: absolute;
+  top: 194.3px;
+  left: 35px;
+  width: 391px;
+  height: 129.7px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: rgba(33, 36, 61, 1);
+}
+#rpsva{
+  position: absolute;
+  top: 26px;
+  left: 1168px;
+  width: 77px;
+  height: 32px;
+  font-size: 22px;
+  letter-spacing: 0px;
+  color: rgba(249, 133, 133, 1);
+}
+#rpsrp{
+  position: absolute;
+  top: 26px;
+  left: 237px;
+  width: 120px;
+  height: 32px;
+  font-size: 22px;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 1);
+}
+#rpsdp{
+  position: absolute;
+  top: 128px;
+  left: 196.47px;
+  width: 140.25px;
+  height: 42.12px;
+  font-size: 18px;
+  letter-spacing: 2%;
+  line-height: 38px;
+  color: rgba(0, 0, 0, 0.7);
+}
+#rps12{
+  position: absolute;
+  top: 128px;
+  left: 35.44px;
+  width: 109.44px;
+  height: 42.12px;
+  font-size: 18px;
+  letter-spacing: 2%;
+  line-height: 38px;
+  color: rgba(0, 0, 0, 0.7);
+}
+#rpssym{
+  position: absolute;
+  top: 137.5px;
+  left: 164.5px;
+  color: rgba(0, 0, 0, 0.67);
+}
+#fwr34{
+  position: absolute;
+  top: 1892px;
+  left: 237px;
+  border-radius: 6px;
+}
+#fwr30{
+  position: absolute;
+  top: 1310px;
+  left: 237px;
+  border-radius: 6px;
+}
+#fwr32{
+  position: absolute;
+  top: 1601px;
+  left: 237px;
+  border-radius: 6px;
+}
+#fwfw{
+  position: absolute;
+  top: 1246px;
+  left: 237px;
+  width: 153px;
+  height: 32px;
+  font-size: 22px;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 1);
+}
+
+#fwsmain{
+  position: absolute;
+  top: 1283.9px;
+  left: 492.54px;
+  width: 663.46px;
+  height: 896.3px;
+}
+#fws20{
+  position: absolute;
+  top: 56.1px;
+  left: 1.46px;
+  width: 68px;
+  height: 24px;
+  border: 2px sollid rgba(249, 133, 133, 1);
+  border-radius: 50px;
+  background-color: rgba(249, 133, 133, 1);
+}
+#fws20p{
+  position: absolute;
+  top: 55.1px;
+  left: 14.46px;
+  width: 42px;
+  height: 37px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+}
+#fwsh{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 1);
+}
+#fwsmp{
+  position: absolute;
+  top: 102.1px;
+  left: 1.46px;
+  width: 622px;
+  height: 170px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 1);
+}
+#fwsd{
+  position: absolute;
+  top: 52.1px;
+  left: 92.46px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 0.62);
+}
+
+#fwsa{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 623.46px;
+  height: 272.1px;
+}
+
+#fwsb{
+  position: absolute;
+  top: 312.1px;
+  left: 20px;
+  width: 623.46px;
+  height: 272.1px;
+}
+
+#fwsc{
+  position: absolute;
+  top: 604.2px;
+  left: 20px;
+  width: 623.46px;
+  height: 272.1px;
+}
+
+
+#footp{
+  position: absolute;
+  top: 2354.67px;
+  left: 543px;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 1);
+}
+
+#footl{
+  position: absolute;
+  top: 2288px;
+  left: 827px;
+}
+#foott{
+  position: absolute;
+  top: 2288px;
+  left: 740px;
+  color: rgba(33, 36, 61, 1);
+}
+#footf{
+  position: absolute;
+  top: 2288px;
+  left: 578px;
+  color: rgba(33, 36, 61, 1);
+}
+#footia{
+  position: absolute;
+  top: 2288px;
+  left: 659px;
+  color: rgba(33, 36, 61, 1);
+}
+#footib{
+  position: absolute;
+  top: 2295.27px;
+  left: 666.27px;
+  color: rgba(33, 36, 61, 1);
+}
+#footic{
+  position: absolute;
+  top: 2293.01px;
+  left: 680.1px;
+  color: rgba(33, 36, 61, 1);
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
